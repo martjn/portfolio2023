@@ -13,14 +13,15 @@ const Home = () => {
     <div className="flex flex-col px-8 justify-center items-center h-screen mx-auto max-w-screen-2xl">
       <div className="flex flex-col lg:flex-row justify-between w-full">
         <div className="flex flex-col container gap-10 mb-8 lg:mb-0 order-2 lg:order-1 mx-auto text-center lg:text-left">
-          <span className="font-black text-6xl">Front-End React Developer</span>
+          <h1 className="font-black text-6xl">Front-End React Developer</h1>
           <span className="text-gray-800 text-2xl">
-            Hi, I'm Martin Toming. An impassioned Front-End Developer situated
+            Hi, I am Martin Toming. An impassioned Front-End Developer situated
             in Tartu, Estonia.
           </span>
           <ul className="my-2 flex flex-row gap-2 lg:mb-0 lg:mt-0 lg:items-center lg:justify-start justify-center">
             <Typography as="li" color="blue-gray" className="p-1 font-black">
               <a
+                rel="noreferrer"
                 href="https://github.com/martjn"
                 target="_blank"
                 className="flex items-center hover:text-blue-500 transition-colors text-4xl "
@@ -30,6 +31,7 @@ const Home = () => {
             </Typography>
             <Typography as="li" color="blue-gray" className="p-1 font-black">
               <a
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/martin-toming-a39001273"
                 target="_blank"
                 className="flex items-center hover:text-blue-500 transition-colors text-4xl"

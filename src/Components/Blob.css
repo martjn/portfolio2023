@@ -3,3 +3,10 @@
   width: 500px;
   height: 500px;
 }
+
+@media (max-width: 768px) {
+  .blob {
+    width: 400px; /* or whatever size you prefer for mobile */
+    height: 400px; /* or whatever size you prefer for mobile */
+  }
+}
