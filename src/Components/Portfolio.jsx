@@ -14,7 +14,7 @@ const Portfolio = () => {
       <section id="home" className="bg-gray-50 h-auto px-0 lg:px-4 w-full" >
         <Home/>
       </section>
-      <section id="about" className="px-0 lg:px-0 h-auto" >
+      <section id="about" className="px-1 lg:px-0 h-auto" >
         <About/>
       </section>
       <section id="projects" className="bg-gray-50 h-auto lg:px-4 px-1 lg:pb-10 pb-5">
