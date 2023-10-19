@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="h-1/2 w-full 2xl:w-3/4 mx-auto mt-48 mb-48">
+    <div className="lg:h-1/2 h-auto w-full mx-auto lg:mt-48 lg:mb-48 mt-10 mb-10">
       <div className="flex lg:flex-row flex-col w-full container mx-auto gap-8 lg:gap-24">
         <div className="flex container text-center justify-center mb-4 lg:mb-0 flex-shrink-0 lg:w-1/3">
           <div className="rounded-lg">
@@ -14,10 +14,10 @@ const About = () => {
           </div>
         </div>
         <h1 className="container lg:w-2/3">
-          <h1 className="text-center lg:text-left text-xl font-black text-gray-600">
+          <h1 className="text-center lg:text-left lg:text-xl text-lg font-black text-gray-600">
             About Me
           </h1>
-          <p className="text-center lg:text-left mt-2 text-left text-2xl font-black">
+          <p className="text-center lg:text-left mt-2 lg:text-2xl text-xl font-black">
             A Junior Software Developer based in Tartu, Estonia
           </p>
           <p className="mt-2 text-justify text-gray-700">

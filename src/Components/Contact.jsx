@@ -12,11 +12,11 @@ const Contact = () => {
   return (
     <>
       <div className="flex max-w-screen-2xl mx-auto">
-        <h1 className="text-left text-gray-600 font-black text-2xl p-10">
+        <h1 className="text-left text-gray-600 font-black text-2xl p-3">
           Contact
         </h1>
       </div>
-      <div className="mx-auto ml-10">
+      <div className="mx-auto">
         <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:gap-16 max-w-screen-2xl mx-auto mb-20 justify-center">
           <div className="flex flex-row items-center gap-12 lg:order-first order-last lg:pb-0 py-5">
             <a target="_blank" rel="noreferrer" href="https://maps.app.goo.gl/NmWcEtLk14QyNgN59">

@@ -17,3 +17,10 @@
     height: 300px;
   }
 }
+
+@media (max-width: 340px){
+  .blob{
+    width: 200px;
+    height: 200px;
+  }
+}

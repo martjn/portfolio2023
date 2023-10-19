@@ -10,7 +10,7 @@ library.add(faLinkedin);
 
 const Home = () => {
   return (
-    <div className="flex flex-col px-8 justify-center items-center lg:h-screen mx-auto w-auto lg:max-w-screen-2xl">
+    <div className="flex flex-col px-8 justify-center items-center lg:h-screen h-auto mx-auto w-auto lg:max-w-screen-2xl">
       <div className="flex flex-col lg:flex-row justify-between w-full">
         <div className="flex flex-col container md:gap-10 gap-4 mb-8 lg:mb-0 order-2 lg:order-1 mx-auto text-center lg:text-left">
           <h1 className="font-black text-3xl md:text-6xl">Front-End React Developer</h1>

@@ -15,8 +15,8 @@ const Projects = () => {
         </span>
       </div>
       <div className="flex flex-col items-center h-auto mx-auto max-w-screen-2xl gap-y-12">
-        <div className="flex gap-20 shadow-[0_0px_8px_0px_rgba(0,0,0,0.2)] rounded-2xl mx-12 p-6 bg-white w-full">
-          <div className="flex flex-col lg:flex-row gap-20">
+        <div className="flex lg:gap-20 gap-5 shadow-[0_0px_8px_0px_rgba(0,0,0,0.2)] rounded-2xl mx-12 p-6 bg-white w-full">
+          <div className="flex flex-col lg:flex-row lg:gap-20 gap-5">
             <a
               className="shadow-[0_0px_8px_0px_rgba(0,0,0,0.3)] rounded-2xl order-1 lg:w-3/5 w-full object-cover h-auto hover:scale-110 transition-transform hover:cursor-pointer"
               target="_blank"
@@ -30,12 +30,12 @@ const Projects = () => {
               />
             </a>
             <div className="order-2 lg:w-2/5 w-full">
-              <p className="text-2xl font-black text-center">
+              <p className="lg:text-2xl text-lg font-black text-center">
                 Estonian Proverbs Digital Archive
               </p>
-              <p className="text-lg font-bold text-center">( June 2023 )</p>
+              <p className="lg:text-lg text-sm font-bold text-center">( June 2023 )</p>
               <br></br>
-              <p className="text-lg text-center">
+              <p className="lg:text-lg text-sm md:text-center text-justify">
                 Explore the rich tapestry of Estonian wisdom with a
                 comprehensive digital archive dedicated to the nation's
                 proverbs. This web application offers users the ability to delve
@@ -56,7 +56,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="shadow-[0_0px_8px_0px_rgba(0,0,0,0.3)] p-2 rounded-lg hover:scale-110 transition-transform font-bold"
                 >
-                  Visit&nbsp;&nbsp;
+                  Demo&nbsp;&nbsp;
                   <FontAwesomeIcon
                     className="text-xl"
                     icon={"link"}
@@ -68,8 +68,8 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="flex gap-20 shadow-[0_0px_8px_0px_rgba(0,0,0,0.2)] rounded-2xl mx-12 p-6 bg-white  w-full">
-          <div className="flex flex-col lg:flex-row gap-20">
+        <div className="flex lg:gap-20 gap-5 shadow-[0_0px_8px_0px_rgba(0,0,0,0.2)] rounded-2xl mx-12 p-6 bg-white  w-full">
+          <div className="flex flex-col lg:flex-row lg:gap-20 gap-5">
             <a
               className="shadow-[0_0px_8px_0px_rgba(0,0,0,0.3)] rounded-2xl lg:order-2 order-1 lg:w-3/5 w-full object-cover h-auto hover:scale-110 transition-transform hover:cursor-pointer"
               target="_blank"
@@ -83,10 +83,10 @@ const Projects = () => {
               />
             </a>
             <div className="lg:order-1 order-2 lg:w-2/5 w-full">
-              <p className="text-2xl font-black text-center">LogicTools</p>
-              <p className="text-lg font-bold text-center">( December 2022 )</p>
+              <p className="lg:text-2xl text-lg font-black text-center">LogicTools</p>
+              <p className="lg:text-lg text-sm font-bold text-center">( December 2022 )</p>
               <br></br>
-              <p className="text-lg text-center">
+              <p className="lg:text-lg text-sm md:text-center text-justify">
                 This multifaceted site offers a curated set of tools, allowing
                 users to seamlessly delve into Morse code and Caesar cipher
                 translations, manipulate their structures, and navigate the
@@ -106,7 +106,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="shadow-[0_0px_8px_0px_rgba(0,0,0,0.3)] p-2 rounded-lg hover:scale-110 transition-transform font-bold"
                 >
-                  Visit&nbsp;&nbsp;
+                  Demo&nbsp;&nbsp;
                   <FontAwesomeIcon
                     className="text-xl"
                     icon={"link"}
