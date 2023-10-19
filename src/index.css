@@ -4,7 +4,12 @@
 
 body {
   @apply font-sans;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 0px; /* Set to 0px to hide scrollbar */
+}
+
+@media only screen and (max-width: 600px){
+  
 }

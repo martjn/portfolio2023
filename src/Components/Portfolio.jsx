@@ -11,10 +11,10 @@ const Portfolio = () => {
   return (
     <>
       <Navbar />
-      <section id="home" className="bg-gray-50 h-screen px-11 lg:px-0" >
+      <section id="home" className="bg-gray-50 h-auto px-0 lg:px-4 w-full" >
         <Home/>
       </section>
-      <section id="about" className="px-11 lg:px-0" >
+      <section id="about" className="px-3 lg:px-0 h-auto" >
         <About/>
       </section>
       <section id="projects" className="bg-gray-50 h-auto px-11 pb-10 lg:px-0">

@@ -10,11 +10,11 @@ library.add(faLinkedin);
 
 const Home = () => {
   return (
-    <div className="flex flex-col px-8 justify-center items-center h-screen mx-auto max-w-screen-2xl">
+    <div className="flex flex-col px-8 justify-center items-center lg:h-screen mx-auto w-auto lg:max-w-screen-2xl">
       <div className="flex flex-col lg:flex-row justify-between w-full">
-        <div className="flex flex-col container gap-10 mb-8 lg:mb-0 order-2 lg:order-1 mx-auto text-center lg:text-left">
-          <h1 className="font-black text-6xl">Front-End React Developer</h1>
-          <span className="text-gray-800 text-2xl">
+        <div className="flex flex-col container md:gap-10 gap-4 mb-8 lg:mb-0 order-2 lg:order-1 mx-auto text-center lg:text-left">
+          <h1 className="font-black text-3xl md:text-6xl">Front-End React Developer</h1>
+          <span className="text-gray-800 md:text-2xl text-lg text-center lg:text-left">
             Hi, I am Martin Toming. An impassioned Front-End Developer situated
             in Tartu, Estonia.
           </span>
@@ -48,7 +48,7 @@ const Home = () => {
           <Blob />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row w-full items-center align-middle lg:items-start gap-8">
+      <div className="flex flex-col lg:flex-row w-full items-center align-middle lg:items-start md:gap-8 gap-4 mb-10">
         <span className="font-bold px-3 text-xl self-center lg:self-center lg:border-r-2 lg:border-r-gray-500 lg:border-b-0 border-b-2 border-r-gray-500 mb-4 lg:mb-0">
           Ecosystem
         </span>
