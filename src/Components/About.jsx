@@ -18,7 +18,7 @@ const About = () => {
             About Me
           </h1>
           <p className="text-center lg:text-left mt-2 lg:text-2xl text-xl font-black">
-            A Junior Software Developer based in Tartu, Estonia
+            A Software Development student based in Tartu, Estonia
           </p>
           <p className="mt-2 text-justify text-gray-700">
             I possess a notable array of expertise in technologies such as HTML,

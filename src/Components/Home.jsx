@@ -13,9 +13,9 @@ const Home = () => {
     <div className="flex flex-col px-8 justify-center items-center lg:h-screen h-auto mx-auto w-auto lg:max-w-screen-2xl">
       <div className="flex flex-col lg:flex-row justify-between w-full">
         <div className="flex flex-col container md:gap-10 gap-4 mb-8 lg:mb-0 order-2 lg:order-1 mx-auto text-center lg:text-left">
-          <h1 className="font-black text-3xl md:text-6xl">Front-End React Developer</h1>
+          <h1 className="font-black text-3xl md:text-6xl">Full-stack Web Developer</h1>
           <span className="text-gray-800 md:text-2xl text-lg text-center lg:text-left">
-            Hi, I am Martin Toming. An impassioned Front-End Developer situated
+            Hi, I am Martin Toming. An impassioned Web Developer situated
             in Tartu, Estonia.
           </span>
           <ul className="my-2 flex flex-row gap-2 lg:mb-0 lg:mt-0 lg:items-center lg:justify-start justify-center">
