@@ -32,14 +32,14 @@ const Contact = () => {
             </a>
           </div>
           <div className="flex flex-row items-center max-w-screen-2xl gap-y-12 lg:pb-0 py-5">
-            <a href="mailto:mingtoming77@gmail.com" rel="noreferrer">
+            <a href="mailto:martin.toming@voco.ee" rel="noreferrer">
               <div className="flex gap-4 hover:text-light-blue-900 hover:scale-105 transition flex-col lg:flex-row justify-center items-center">
                 <span className="text-3xl rounded-full p-3 shadow-lg">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
                 <div className="flex flex-col">
                   <h3 className="text-xl font-black lg:text-left text-center">Email</h3>
-                  <span className="text-xl lg:text-left text-center">mingtoming77@gmail.com</span>
+                  <span className="text-xl lg:text-left text-center">martin.toming@voco.ee</span>
                 </div>
               </div>
             </a>
