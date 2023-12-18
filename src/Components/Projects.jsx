@@ -20,7 +20,7 @@ const Projects = () => {
             <a
               className="shadow-[0_0px_8px_0px_rgba(0,0,0,0.3)] rounded-2xl order-1 lg:w-3/5 w-full object-cover h-auto hover:scale-110 transition-transform hover:cursor-pointer"
               target="_blank"
-              href="https://folklore.ee/eesti-utlused/"
+              href="https://postit-crud.vercel.app/"
               rel="noreferrer"
             >
               <img
